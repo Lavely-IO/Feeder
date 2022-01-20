@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e724778f-1784-479b-921f-bb5ea61b20b5": {
+      "ProjectGuid": "e724778f-1784-479b-921f-bb5ea61b20b5",
+      "DisplayName": "LavelyIO.Feeder",
+      "ColorIndex": 0
+    },
+    "b160ba22-bbc3-4a89-8ce3-cf1cac15393c": {
+      "ProjectGuid": "b160ba22-bbc3-4a89-8ce3-cf1cac15393c",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

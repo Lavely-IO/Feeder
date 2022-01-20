@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\_JAGC_\\JAGC.DevOps\\NugetWorker\\LavelyIO.Feeder.csproj": {}
+  },
+  "projects": {
+    "H:\\_JAGC_\\JAGC.DevOps\\NugetWorker\\LavelyIO.Feeder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\_JAGC_\\JAGC.DevOps\\NugetWorker\\LavelyIO.Feeder.csproj",
+        "projectName": "LavelyIO.Feeder",
+        "projectPath": "H:\\_JAGC_\\JAGC.DevOps\\NugetWorker\\LavelyIO.Feeder.csproj",
+        "packagesPath": "C:\\Users\\joshl\\.nuget\\packages\\",
+        "outputPath": "H:\\_JAGC_\\JAGC.DevOps\\NugetWorker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joshl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "Z:\\nuget": {},
+          "http://jagc-az-devops1:8080/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.TeamFoundationServer.Client": {
+              "target": "Package",
+              "version": "[16.170.0, )"
+            },
+            "Microsoft.VisualStudio.Services.Client": {
+              "target": "Package",
+              "version": "[16.199.0-preview, )"
+            },
+            "Microsoft.VisualStudio.Services.InteractiveClient": {
+              "target": "Package",
+              "version": "[16.170.0, )"
+            },
+            "Microsoft.VisualStudio.Services.Packaging.Client": {
+              "target": "Package",
+              "version": "[16.199.0-preview, )"
+            },
+            "Nuget.Packaging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Nuget.Protocol": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Text.Encoding": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
